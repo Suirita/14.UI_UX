@@ -1,7 +1,7 @@
 ## **Soli_LMS UI UX**
 
-- Presented by: SUIRITA Fahd
-- Framed by: ESSARRAJ Fouad
+- présenté par: SUIRITA Fahd
+- Encadré by: ESSARRAJ Fouad
 
 ---
 
@@ -98,7 +98,3 @@
 ---
 
 ### **8. Réalisation:**
-
----
-
-### **9. Realisation:**
