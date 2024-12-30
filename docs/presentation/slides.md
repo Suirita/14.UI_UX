@@ -71,25 +71,10 @@
 
 ### **6. Branche technique:**
 
-|||
-
-#### **6.1. Composant UI:**
-
-|||
-
-#### **6.2. Pre_requis:**
-
-|||
-
-#### **6.3. Les Base de UI UX:**
-
-|||
-
-#### **6.4. AJAX:**
-
-|||
-
-#### **6.5. One_page**
+- Composant UI:
+- Les Base de UI UX
+- AJAX
+- One page UI
 
 ---
 
