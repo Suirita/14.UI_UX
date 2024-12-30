@@ -9,11 +9,11 @@
 
 ---
 
-### **2.Contexte du projet:**
+### **2. Cahier des charges:**
 
 |||
 
-#### **2.1. Cahier des charges:**
+#### **2.1. Contexte du projet:**
 
 |||
 
@@ -82,6 +82,14 @@
 |||
 
 #### **6.3. Les Base de UI UX:**
+
+|||
+
+#### **6.4. AJAX:**
+
+|||
+
+#### **6.5. One_page**
 
 ---
 
