@@ -5,83 +5,100 @@
 
 ---
 
-### **1. Introduction**
+### **1. Introduction:**
 
 ---
 
-### **2. 2_TUP:**
+### **2.Contexte du projet:**
+
+|||
+
+#### **2.1. Cahier des charges:**
+
+|||
+
+#### **2.2. Objectifs de formation:**
 
 ---
 
-### **3. Planning:**
+### **3. Processus de développement:**
 
-<table style="font-size: 42px" >
-  <tr>
-    <th></th>
-    <th>1</th>
-    <th>2</th>
-    <th>3</th>
-  </tr>
-  <tr>
-    <td>Monday</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Tuesday</td>
-    <td>-</td>
-    <td>-</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Wednesday</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Thursday</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Friday</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+|||
+
+#### **3.1. 2TUP:**
+
+|||
+
+#### **3.2. Design thinking:**
+
+|||
+
+#### **3.3. UI UX:**
 
 ---
 
-### **4. Capture of technical needs:**
+### **4. Planification:**
+
+|||
+
+#### **4.1. Gestion des tâches:**
+
+|||
+
+#### **4.2. Diagramme de Gantt:**
 
 ---
 
-### **5. Generic design:**
+### **5. Branche fonctionnelle:**
+
+|||
+
+#### **5.1. Carte d’empathie:**
+
+|||
+
+#### **5.2. Définir le problème:**
+
+|||
+
+#### **5.3. Idéation:**
+
+|||
+
+#### **5.4. Diagramme de cas d’utilisation:**
 
 ---
 
-### **6. Prototype:**
+### **6. Branche technique:**
+
+|||
+
+#### **6.1. Composant UI:**
+
+|||
+
+#### **6.2. Pre_requis:**
+
+|||
+
+#### **6.3. Les Base de UI UX:**
 
 ---
 
-### **7. Capture of functional needs:**
+### **7. Conception:**
+
+|||
+
+#### **7.1. Diagramme de class:**
+
+|||
+
+#### **7.2. Maquettages:**
 
 ---
 
-### **8. Analysis:**
+### **8. Réalisation:**
 
 ---
 
-### **9. Design:**
-
----
-
-### **10. Realization:**
-
----
-
-### **11. Conclusion:**
+### **9. Realisation:**
