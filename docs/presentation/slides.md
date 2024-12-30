@@ -71,10 +71,9 @@
 
 ### **6. Branche technique:**
 
-- Composant UI:
+- Composant UI
 - Les Base de UI UX
 - AJAX
-- One page UI
 
 ---
 
