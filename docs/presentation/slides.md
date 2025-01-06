@@ -64,7 +64,7 @@
 
 #### **5.1. Carte d’empathie:**
 
-![Carte d’empathie](../assets/img/Carte_empathie.png)
+![Carte d’empathie](../assets/img/Carte_empathie.svg)
 
 |||
 
