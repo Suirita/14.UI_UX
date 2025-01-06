@@ -47,6 +47,8 @@
 
 ### **4. Planification:**
 
+![Planification](../assets/img/Planification.png)
+
 ---
 
 ### **5. Branche fonctionnelle:**
