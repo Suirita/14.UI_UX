@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Processus de développement
-order: 3
+chapter: true
+order: 4
 ---
 
 # Methode de travail

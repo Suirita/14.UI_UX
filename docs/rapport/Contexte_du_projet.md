@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Cahier des charges
-order: 2
+chapter: true
+order: 3
 ---
 
 ## Contexte du projet
