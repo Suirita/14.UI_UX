@@ -61,9 +61,8 @@
 - 5.1. Carte d’empathie
 - 5.2. Définir le problème
 - 5.3. Idéation
-- 5.4. Diagramme de cas d’utilisation general
-- 5.5. Diagramme de cas d’utilisation sprint 1
-- 5.6. Diagramme de cas d’utilisation sprint 2
+- 5.4. Diagramme de cas d’utilisation sprint 1
+- 5.5. Diagramme de cas d’utilisation sprint 2
 
 |||
 
@@ -83,15 +82,11 @@
 
 |||
 
-#### **5.4. Diagramme de cas d’utilisation general:**
+#### **5.4. Diagramme de cas d’utilisation sprint 1:**
 
 |||
 
-#### **5.5. Diagramme de cas d’utilisation sprint 1:**
-
-|||
-
-#### **5.6. Diagramme de cas d’utilisation sprint 2:**
+#### **5.5. Diagramme de cas d’utilisation sprint 2:**
 
 ---
 

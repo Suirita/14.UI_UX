@@ -15,8 +15,6 @@ order: 6
 
 ## Idéation
 
-## Diagramme de cas d’utilisation general
-
 ## Diagramme de cas d’utilisation sprint 1
 
 ## Diagramme de cas d’utilisation sprint 2
