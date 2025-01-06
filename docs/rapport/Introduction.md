@@ -1,6 +1,5 @@
 ---
-layout: page
-title: Introduction
+chapter: true
 order: 1
 ---
 
