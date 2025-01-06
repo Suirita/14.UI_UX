@@ -1,6 +1,6 @@
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="../assets/img/Solicode_logo.png" alt="Solicode logo" style="width: 150px; height: 150px; object-fit: contain;">
-    <img src="../assets/img/OFPPT_logo.png" alt="OFPPT logo" style="width: 150px; height: 150px; object-fit: contain;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="../assets/img/Solicode_logo.png" alt="Solicode logo" style="width: 150px; height: 120px">
+    <img src="../assets/img/OFPPT_logo.png" alt="OFPPT logo" style="width: 150px; height: 120px;">
 </div>
 
 ## **Entretien d'inscription**
@@ -74,7 +74,7 @@
 
 #### **5.2. Définir le problème:**
 
-![Définir le problème](../assets/img/Definir_probleme.jpg)
+il est difficile d'évaluer efficacement les performances des étudiants lors des entretiens d'inscription
 
 |||
 
