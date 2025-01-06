@@ -3,7 +3,7 @@ chapter: true
 order: 3
 ---
 
-## Contexte du projet
+# Contexte du projet
 
 ![Contexte_du_projet](../assets/img/Contexte_du_projet.png)
 

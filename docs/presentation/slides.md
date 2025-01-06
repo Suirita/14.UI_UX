@@ -1,3 +1,6 @@
+![Solicode logo](../assets/img/Solicode_logo.png)
+![OFPPT logo](../assets/img/OFPPT_logo.png)
+
 ## **Entretien d'inscription**
 
 ### **Project Fil Rouge**
@@ -15,7 +18,7 @@
 
 ### **2. Contexte du projet:**
 
-![Contexte_du_projet](../assets/img/Contexte_du_projet.png)
+![Contexte du projet](../assets/img/Contexte_du_projet.png)
 
 ---
 
@@ -23,7 +26,7 @@
 
 - 3.1. Scrum
 - 3.2. 2TUP
-- 3.3. Design thinking
+- 3.3. UX design
 
 |||
 
@@ -39,9 +42,9 @@
 
 |||
 
-#### **3.3. Design thinking:**
+#### **3.3. UX design:**
 
-![Design_thinking](../assets/img/Design_thinking.jpg)
+![UX design](../assets/img/UX_design.png)
 
 ---
 
@@ -69,6 +72,8 @@
 |||
 
 #### **5.2. Définir le problème:**
+
+![Définir le problème](../assets/img/Definir_probleme.jpg)
 
 |||
 

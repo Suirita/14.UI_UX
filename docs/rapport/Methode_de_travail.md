@@ -35,8 +35,8 @@ Le processus s’articule ensuite autour de 3 phases essentielles:
 
 **La phase de réalisation** consiste à réunir les deux branches, permettant de mener une conceptionapplicative et enfin la livraison d’une solution adaptée aux besoins. Arrive par la suite l’étape decodage et enfin l’étape de recette, qui consiste à valider les fonctions du système développé.
 
-## Design thinking
+## UX design
 
-![Design_thinking](../assets/img/Design_thinking.jpg)
+![UX design](../assets/img/UX_design.png)
 
-**Le design thinking** est une approche de l’innovation centrée sur l’humain. C’est une méthode ou un processus de conception globale, centré sur l’utilisateur (ou l’humain), en vue de réaliser des services ou produits innovants.
+**Le UX design** est une approche de l’innovation centrée sur l’humain. C’est une méthode ou un processus de conception globale, centré sur l’utilisateur (ou l’humain), en vue de réaliser des services ou produits innovants.

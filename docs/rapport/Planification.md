@@ -3,6 +3,6 @@ chapter: true
 order: 5
 ---
 
-## Planification
+# Planification
 
 ![Planification](../assets/img/Planification.png)
