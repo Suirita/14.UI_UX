@@ -5,10 +5,10 @@
 
 ## **Entretien d'inscription**
 
-### **Project Fil Rouge**
+### **Projet Fil Rouge**
 
 - présenté par: SUIRITA Fahd
-- Encadré by: ESSARRAJ Fouad
+- Encadré par: ESSARRAJ Fouad
 
 ---
 
