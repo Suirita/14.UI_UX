@@ -1,4 +1,6 @@
-## **Soli_LMS UI UX**
+## **Entretien d'inscription**
+
+### **Project Fil Rouge**
 
 - présenté par: SUIRITA Fahd
 - Encadré by: ESSARRAJ Fouad
@@ -7,49 +9,54 @@
 
 ### **1. Introduction:**
 
----
-
-### **2. Cahier des charges:**
-
-|||
-
-#### **2.1. Contexte du projet:**
-
-|||
-
-#### **2.2. Objectifs de formation:**
+![Introduction](../assets/img/Introduction.jpg)
 
 ---
 
-### **3. Processus de développement:**
+### **2. Contexte du projet:**
+
+![Contexte_du_projet](../assets/img/Contexte_du_projet.png)
+
+---
+
+### **3. Methode de travail:**
+
+- 3.1. Scrum
+- 3.2. 2TUP
+- 3.3. Design thinking
 
 |||
 
-#### **3.1. 2TUP:**
+#### **3.1. Scrum:**
+
+![Scrum](../assets/img/Scrum.jpg)
 
 |||
 
-#### **3.2. Design thinking:**
+#### **3.2. 2TUP:**
+
+![2TUP](../assets/img/2TUP.png)
 
 |||
 
-#### **3.3. UI UX:**
+#### **3.3. Design thinking:**
+
+![Design_thinking](../assets/img/Design_thinking.jpg)
 
 ---
 
 ### **4. Planification:**
 
-|||
-
-#### **4.1. Gestion des tâches:**
-
-|||
-
-#### **4.2. Diagramme de Gantt:**
-
 ---
 
 ### **5. Branche fonctionnelle:**
+
+- 5.1. Carte d’empathie
+- 5.2. Définir le problème
+- 5.3. Idéation
+- 5.4. Diagramme de cas d’utilisation general
+- 5.5. Diagramme de cas d’utilisation sprint 1
+- 5.6. Diagramme de cas d’utilisation sprint 2
 
 |||
 
@@ -65,15 +72,48 @@
 
 |||
 
-#### **5.4. Diagramme de cas d’utilisation:**
+#### **5.4. Diagramme de cas d’utilisation general:**
+
+|||
+
+#### **5.5. Diagramme de cas d’utilisation sprint 1:**
+
+|||
+
+#### **5.6. Diagramme de cas d’utilisation sprint 2:**
 
 ---
 
 ### **6. Branche technique:**
 
-- Composant UI
+|||
+
+#### **6.1. Capture de besoins techniques:**
+
+- Backend
+- Frontend
+- UI UX
+- Base de données
+- Deployment
+
+|||
+
+#### **6.2. Analyse technique:**
+
 - Les Base de UI UX
-- AJAX
+- One page application (AJAX)
+
+|||
+
+#### **6.3. Auto-formation:**
+
+- Composant UI
+
+|||
+
+#### **6.4. Conception generique:**
+
+<!-- diagram de class on bleu ciel -->
 
 ---
 
@@ -85,8 +125,20 @@
 
 |||
 
-#### **7.2. Maquettages:**
+#### **7.2. Maquettage 1:**
+
+|||
+
+#### **7.3. Maquettage 2:**
+
+|||
+
+#### **7.4. Maquettage 3:**
 
 ---
 
 ### **8. Réalisation:**
+
+---
+
+### **9. Conclusion:**
