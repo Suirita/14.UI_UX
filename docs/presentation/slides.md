@@ -1,5 +1,7 @@
-![Solicode logo](../assets/img/Solicode_logo.png)
-![OFPPT logo](../assets/img/OFPPT_logo.png)
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <img src="../assets/img/Solicode_logo.png" alt="Solicode logo" style="width: 150px; height: 150px; object-fit: contain;">
+    <img src="../assets/img/OFPPT_logo.png" alt="OFPPT logo" style="width: 150px; height: 150px; object-fit: contain;">
+</div>
 
 ## **Entretien d'inscription**
 
