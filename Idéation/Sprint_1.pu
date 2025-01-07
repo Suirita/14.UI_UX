@@ -1,0 +1,10 @@
+@startuml Sprint_1
+left to right direction
+actor "Formateur" as fr
+rectangle System {
+  usecase "CRUD Branche" as UC1
+  usecase "CRUD Question" as UC2
+}
+fr -- UC1
+UC1 <.. UC2 : <<extends>>
+@enduml
