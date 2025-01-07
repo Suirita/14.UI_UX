@@ -80,13 +80,19 @@ il est difficile d'évaluer efficacement les performances des étudiants lors de
 
 #### **5.3. Idéation:**
 
+![Cas d’utilisation](../assets/img/Cas_utilisation.svg)
+
 |||
 
 #### **5.4. Diagramme de cas d’utilisation sprint 1:**
 
+![Cas d’utilisation Sprint 1](../assets/img/Sprint_1.svg)
+
 |||
 
 #### **5.5. Diagramme de cas d’utilisation sprint 2:**
+
+![Cas d’utilisation Sprint 2](../assets/img/Sprint_2.svg)
 
 ---
 

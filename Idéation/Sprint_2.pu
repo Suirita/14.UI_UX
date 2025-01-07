@@ -1,0 +1,8 @@
+@startuml Sprint_2
+left to right direction
+actor "Formateur" as fr
+rectangle System {
+  usecase "Évaluer Les Réponses" as UC1
+}
+fr -- UC1
+@enduml
