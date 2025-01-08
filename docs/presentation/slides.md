@@ -98,13 +98,18 @@ il est difficile d'évaluer efficacement les performances des étudiants lors de
 
 ### **6. Branche technique:**
 
+- 6.1. Capture de besoins techniques
+- 6.2. Analyse technique
+- 6.3. Auto-formation
+- 6.4. Conception generique
+
 |||
 
 #### **6.1. Capture de besoins techniques:**
 
-- Backend
-- Frontend
 - UI UX
+- Frontend
+- Backend
 - Base de données
 - Deployment
 
@@ -125,15 +130,22 @@ il est difficile d'évaluer efficacement les performances des étudiants lors de
 
 #### **6.4. Conception generique:**
 
-<!-- diagram de class on bleu ciel -->
+<img src="../assets/img/Conception_generique.svg" alt="Conception generique" height="600px">
 
 ---
 
 ### **7. Conception:**
 
+- 7.1. Diagramme de class
+- 7.2. Maquettage 1
+- 7.3. Maquettage 2
+- 7.4. Maquettage 3
+
 |||
 
 #### **7.1. Diagramme de class:**
+
+<img src="../assets/img/Diagramme_de_class.svg" alt="Diagramme_de_class" width="400px">
 
 |||
 
