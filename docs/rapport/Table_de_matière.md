@@ -12,4 +12,8 @@ order: 1
   <li><a href="#Table_des_matières">Table des matières</a></li>
   <li><a href="#Planification">Planification</a></li>
   <li><a href="#Branche_fonctionnelle">Branche fonctionnelle</a></li>
+  <li><a href="#Branche_technique">Branche technique</a></li>
+  <li><a href="#Conception">Conception</a></li>
+  <li><a href="#Réalisation">Réalisation</a></li>
+  <li><a href="#Conclusion">Conclusion</a></li>
 </ul>
