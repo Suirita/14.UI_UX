@@ -19,7 +19,7 @@
           <a href="../dashboard/dashboard.php" class="nav-link">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
-              tableau de bord
+              Tableau de bord
             </p>
           </a>
         </li>
@@ -28,7 +28,7 @@
           <a href="../Entretie_inscription/create.php" class="nav-link">
             <i class="nav-icon fas fa-th"></i>
             <p>
-              Entretie_inscription
+              Entretien d'inscription
             </p>
           </a>
         </li>

@@ -16,21 +16,20 @@ include_once '../layouts/head.php';
 
     <main class="py-4">
       <div class="content-wrapper p-3">
-        <!-- Card container for the main content -->
-        <div class="card card-info ">
+        <div class="card card-info">
 
           <!-- Card Header -->
           <div class="card-header border-transparent">
-            <h3 class="h3">tableau de bord</h3>
+            <h3 class="h3">Tableau de bord</h3>
           </div>
 
           <!-- Row with statistics boxes -->
-          <div class="row m-3">
-            <!-- Students number Box -->
-            <div class="col-lg-4 col-6">
+          <div class="row mx-3 mt-4">
+            <!-- Total Candidates -->
+            <div class="col-lg-3 col-6">
               <div class="small-box bg-info">
                 <div class="inner">
-                  <h3>200</h3>
+                  <h3>500</h3>
                   <p>Candidats</p>
                 </div>
                 <div class="icon">
@@ -39,12 +38,25 @@ include_once '../layouts/head.php';
               </div>
             </div>
 
-            <!-- Accepted Students Box -->
-            <div class="col-lg-4 col-6">
+            <!-- Accepted Candidates -->
+            <div class="col-lg-3 col-6">
               <div class="small-box bg-success">
                 <div class="inner">
-                  <h3>75</h3>
-                  <p>Étudiants Acceptés</p>
+                  <h3>40</h3>
+                  <p>Acceptés</p>
+                </div>
+                <div class="icon">
+                  <i class="fas fa-user-check"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pending Candidates -->
+            <div class="col-lg-3 col-6">
+              <div class="small-box bg-warning">
+                <div class="inner">
+                  <h3>330</h3>
+                  <p>En Attente</p>
                 </div>
                 <div class="icon">
                   <i class="fas fa-user"></i>
@@ -52,12 +64,12 @@ include_once '../layouts/head.php';
               </div>
             </div>
 
-            <!-- Declliered Students Box -->
-            <div class="col-lg-4 col-6">
+            <!-- Rejected Candidates -->
+            <div class="col-lg-3 col-6">
               <div class="small-box bg-danger">
                 <div class="inner">
-                  <h3>65</h3>
-                  <p>Étudiants Refusés</p>
+                  <h3>130</h3>
+                  <p>Refusés</p>
                 </div>
                 <div class="icon">
                   <i class="fas fa-user-slash"></i>
@@ -66,64 +78,27 @@ include_once '../layouts/head.php';
             </div>
           </div>
 
-          <!-- Card Body with Table -->
-          <div class="card-body">
-            <div class="table table-striped table-responsive">
-              <table class="table m-0">
-                <thead>
-                  <tr>
-                    <th>Nom</th>
-                    <th>Prénom</th>
-                    <th>Note</th>
-                    <th>Date</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Amazu</td>
-                    <td>Ayoub</td>
-                    <td>20</td>
-                    <td>01/09/2024</td>
-                  </tr>
-                  <tr>
-                    <td>Aoulad Amar</td>
-                    <td>Samir</td>
-                    <td>15</td>
-                    <td>01/09/2024</td>
-                  </tr>
-                  <tr>
-                    <td>Azizi</td>
-                    <td>Zakaria</td>
-                    <td>12</td>
-                    <td>02/09/2024</td>
-                  </tr>
-                  <tr>
-                    <td>Bardich</td>
-                    <td>Oussama</td>
-                    <td>17</td>
-                    <td>02/09/2024</td>
-                  </tr>
-                  <tr>
-                    <td>BASRI </td>
-                    <td>Yahya</td>
-                    <td>09</td>
-                    <td>03/09/2024</td>
-                  </tr>
-                </tbody>
-              </table>
+          <!-- Row with statistics charts -->
+          <div class="row mx-3 mb-2">
+            <!-- Pie Chart -->
+            <div class="col-6">
+              <div class="card card-danger">
+                <div class="card-body">
+                  <canvas id="pieChart" style="min-height: 330px; height: 330px; max-height: 330px; max-width: 100%;"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bar Chart -->
+            <div class="col-6">
+              <div class="card card-success">
+                <div class="card-body">
+                  <canvas id="barChart" style="min-height: 330px; height: 330px; max-height: 330px; max-width: 100%;"></canvas>
+                </div>
+              </div>
             </div>
           </div>
 
-          <!-- Card Footer with pagination -->
-          <div class="card-footer d-flex justify-content-center bg-white">
-            <ul class="pagination m-0">
-              <li class="page-item"><a class="page-link" href="#">«</a></li>
-              <li class="page-item"><a class="page-link bg-info" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item"><a class="page-link" href="#">»</a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </main>
@@ -139,5 +114,72 @@ include_once '../layouts/head.php';
   include_once '../layouts/script-link.php';
   ?>
 </body>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Pie Chart: Distribution of candidates by status
+    const pieCtx = document.getElementById('pieChart').getContext('2d');
+    new Chart(pieCtx, {
+      type: 'pie',
+      data: {
+        labels: ['Acceptés', 'En Attente', 'Refusés'],
+        datasets: [{
+          data: [40, 330, 130], // Match the totals shown in the statistics
+          backgroundColor: ['#00a65a', '#f39c12', '#f56954'], // Colors
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false
+      }
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // Bar Chart: Average scores by category
+    const barCtx = document.getElementById('barChart').getContext('2d');
+    new Chart(barCtx, {
+      type: 'bar',
+      data: {
+        labels: ['Français', 'Anglais', 'Programmation', 'Soft Skills', 'Travail en Équipe'], // Categories
+        datasets: [{
+            label: 'Acceptés',
+            data: [42, 49, 55, 40, 46], // Scores for accepted candidates
+            backgroundColor: '#198754'
+          },
+          {
+            label: 'En Attente',
+            data: [65, 70, 75, 63, 72], // Scores for pending candidates
+            backgroundColor: '#fd7e14'
+          },
+          {
+            label: 'Refusés',
+            data: [40, 23, 26, 31, 30], // Scores for rejected candidates
+            backgroundColor: '#dc3545'
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+          display: true,
+          position: 'top'
+        },
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true,
+              stepSize: 10
+            }
+          }],
+          xAxes: [{
+            barPercentage: 0.6
+          }]
+        }
+      }
+    });
+  });
+</script>
 
 </html>

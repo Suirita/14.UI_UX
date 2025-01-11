@@ -52,60 +52,26 @@
 
 ### **4. Planification:**
 
+#### **4.1. GitHub Project:**
+
 ![Planification](../assets/img/Planification.png)
 
----
-
-### **5. Branche fonctionnelle:**
-
-- 5.1. Carte d’empathie
-- 5.2. Définir le problème
-- 5.3. Idéation
-- 5.4. Diagramme de cas d’utilisation sprint 1
-- 5.5. Diagramme de cas d’utilisation sprint 2
-
 |||
 
-#### **5.1. Carte d’empathie:**
-
-![Carte d’empathie](../assets/img/Carte_empathie.svg)
-
-|||
-
-#### **5.2. Définir le problème:**
-
-il est difficile d'évaluer efficacement les performances des étudiants lors des entretiens d'inscription
-
-|||
-
-#### **5.3. Idéation:**
-
-![Cas d’utilisation](../assets/img/Cas_utilisation.svg)
-
-|||
-
-#### **5.4. Diagramme de cas d’utilisation sprint 1:**
-
-![Cas d’utilisation Sprint 1](../assets/img/Sprint_1.svg)
-
-|||
-
-#### **5.5. Diagramme de cas d’utilisation sprint 2:**
-
-![Cas d’utilisation Sprint 2](../assets/img/Sprint_2.svg)
+#### **4.2. Diagramme de Gantt:**
 
 ---
 
-### **6. Branche technique:**
+### **5. Branche technique:**
 
-- 6.1. Capture de besoins techniques
-- 6.2. Analyse technique
-- 6.3. Auto-formation
-- 6.4. Conception generique
+- 5.1. Capture de besoins techniques
+- 5.2. Analyse technique
+- 5.3. Auto-formation
+- 5.4. Conception generique
 
 |||
 
-#### **6.1. Capture de besoins techniques:**
+#### **5.1. Capture de besoins techniques:**
 
 - UI UX
 - Frontend
@@ -115,22 +81,62 @@ il est difficile d'évaluer efficacement les performances des étudiants lors de
 
 |||
 
-#### **6.2. Analyse technique:**
+#### **5.2. Analyse technique:**
 
 - Les Base de UI UX
 - One page application (AJAX)
 
 |||
 
-#### **6.3. Auto-formation:**
+#### **5.3. Auto-formation:**
 
 - Composant UI
 
 |||
 
-#### **6.4. Conception generique:**
+#### **5.4. Conception generique:**
 
-<img src="../assets/img/Conception_generique.svg" alt="Conception generique" height="600px">
+<img src="../assets/img/Conception_generique.svg" alt="Conception generique" height="500px">
+
+---
+
+### **6. Branche fonctionnelle:**
+
+- 6.1. Carte d’empathie
+- 6.2. Définir le problème
+- 6.3. Idéation
+- 6.4. Diagramme de cas d’utilisation sprint 1
+- 6.5. Diagramme de cas d’utilisation sprint 2
+
+|||
+
+#### **6.1. Carte d’empathie:**
+
+![Carte d’empathie](../assets/img/Carte_empathie.svg)
+
+|||
+
+#### **6.2. Définir le problème:**
+
+il est difficile d'évaluer efficacement les performances des étudiants lors des entretiens d'inscription
+
+|||
+
+#### **6.3. Idéation:**
+
+![Cas d’utilisation](../assets/img/Cas_utilisation.svg)
+
+|||
+
+#### **6.4. Diagramme de cas d’utilisation sprint 1:**
+
+![Cas d’utilisation Sprint 1](../assets/img/Sprint_1.svg)
+
+|||
+
+#### **6.5. Diagramme de cas d’utilisation sprint 2:**
+
+![Cas d’utilisation Sprint 2](../assets/img/Sprint_2.svg)
 
 ---
 
