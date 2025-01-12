@@ -20,7 +20,7 @@
 
 ### **2. Contexte du projet:**
 
-![Contexte du projet](../assets/img/Contexte_du_projet.png)
+![Contexte du projet](../assets/img/Contexte_du_projet.jpg)
 
 ---
 
@@ -51,6 +51,8 @@
 ---
 
 ### **4. Planification:**
+
+|||
 
 #### **4.1. GitHub Project:**
 
@@ -118,11 +120,11 @@
 
 #### **6.2. Définir le problème:**
 
-il est difficile d'évaluer efficacement les performances des étudiants lors des entretiens d'inscription
+il existe de nombreuses applications dispersées avec des technologies différentes, ce qui rend leur maintenance difficile
 
 |||
 
-#### **6.3. Idéation:**
+#### **6.3. Idéation (cas d’utilisation):**
 
 ![Cas d’utilisation](../assets/img/Cas_utilisation.svg)
 
@@ -143,27 +145,33 @@ il est difficile d'évaluer efficacement les performances des étudiants lors de
 ### **7. Conception:**
 
 - 7.1. Diagramme de class
-- 7.2. Maquettage 1
-- 7.3. Maquettage 2
-- 7.4. Maquettage 3
+- 7.2. Maquette 1
+- 7.3. Maquette 2
+- 7.4. Maquette 3
 
 |||
 
 #### **7.1. Diagramme de class:**
 
-<img src="../assets/img/Diagramme_de_class.svg" alt="Diagramme_de_class" width="400px">
+<img src="../assets/img/Diagramme_de_class.svg" alt="Diagramme_de_class" height="600px">
 
 |||
 
-#### **7.2. Maquettage 1:**
+#### **7.2. Maquette 1:**
+
+![Maquette 1](../assets/img/Maquette_1.png)
 
 |||
 
-#### **7.3. Maquettage 2:**
+#### **7.3. Maquette 2:**
+
+![Maquette 2](../assets/img/Maquette_2.png)
 
 |||
 
-#### **7.4. Maquettage 3:**
+#### **7.4. Maquette 3:**
+
+![Maquette 3](../assets/img/Maquette_3.png)
 
 ---
 

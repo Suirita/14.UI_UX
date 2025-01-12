@@ -1,9 +1,11 @@
 ---
 chapter: true
-order: 7
+order: 6
 ---
 
 # Branche technique
+
+La branche technique se concentre sur les aspects techniques et de développement du projet. Elle englobe les activités liées à la conception, la programmation et la mise en œuvre des fonctionnalités et des composants. Cela inclut l’utilisation d’outils de développement, la gestion des versions du code source et la collaboration entre les développeurs. La branche technique est essentielle pour garantir la création d’un produit final de haute qualité, en assurant le respect des spécifications techniques et la correcte implémentation des fonctionnalités.
 
 ## Capture de besoins techniques
 
@@ -23,5 +25,7 @@ order: 7
 - Composant UI
 
 ## Conception generique
+
+Avant de démarrer la réalisation de notre projet, nous avons mis en place un prototype fonctionnel détaillé
 
 ![Conception generique](../assets/img/Conception_generique.svg)

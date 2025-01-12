@@ -1,4 +1,10 @@
 classDiagram
+  class Interview{
+    + int id
+    + date createdAt
+    + date udatedAt
+  }
+
   class Branch {
     + int id
     + string title
@@ -28,7 +34,8 @@ classDiagram
     + date createdAt
     + date udatedAt
   }
-
+  Interview "1" -- "1" Student
+  Student "1" -- "1" Answer
+  Interview "*" -- "*" Branch
   Branch "1" -- "*" Question
-  Answer "*" -- "1" Question
-  Answer "*" -- "1" Student
+  Question "1" -- "1" Answer

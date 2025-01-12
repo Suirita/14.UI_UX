@@ -2,11 +2,13 @@
 left to right direction
 actor "Formateur" as fr
 rectangle System {
-  usecase "CRUD Branche" as UC1
-  usecase "CRUD Question" as UC2
-  usecase "Évaluer Les Réponses" as UC3
+  usecase "Accéder au tableau de bord" as UC1
+  usecase "CRUD Branche" as UC2
+  usecase "CRUD Question" as UC3
+  usecase "Entretien" as UC4
 }
 fr -- UC1
-UC1 <.. UC2 : <<extends>>
-fr -- UC3
+fr -- UC2
+UC2 <.. UC3 : <<extends>>
+fr -- UC4
 @enduml

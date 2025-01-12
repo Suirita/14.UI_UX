@@ -9,8 +9,14 @@ order: 8
 
 ![Diagramme de class](../assets/img/Diagramme_de_class.svg)
 
-## Maquettage 1
+## Maquette 1
 
-## Maquettage 2
+![Maquette 1](../assets/img/Maquette_1.png)
 
-## Maquettage 3
+## Maquette 2
+
+![Maquette 2](../assets/img/Maquette_2.png)
+
+## Maquette 3
+
+![Maquette 3](../assets/img/Maquette_3.png)

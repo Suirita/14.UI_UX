@@ -1,6 +1,6 @@
 ---
 chapter: true
-order: 6
+order: 7
 ---
 
 # Branche fonctionnelle
@@ -24,7 +24,7 @@ order: 6
 
 ## Définir le problème
 
-il est difficile d'évaluer efficacement les performances des étudiants lors des entretiens d'inscription
+il existe de nombreuses applications dispersées avec des technologies différentes, ce qui rend leur maintenance difficile
 
 ## Idéation
 
