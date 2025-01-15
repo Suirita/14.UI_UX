@@ -30,7 +30,7 @@ include_once '../layouts/head.php';
               <div class="small-box bg-info">
                 <div class="inner">
                   <h3>500</h3>
-                  <p>Candidats</p>
+                  <p>Les inscrits</p>
                 </div>
                 <div class="icon">
                   <i class="fas fa-users"></i>
@@ -115,6 +115,7 @@ include_once '../layouts/head.php';
   ?>
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     // Pie Chart: Distribution of candidates by status
@@ -130,10 +131,25 @@ include_once '../layouts/head.php';
       },
       options: {
         responsive: true,
-        maintainAspectRatio: false
-      }
+        maintainAspectRatio: false,
+        plugins: {
+          datalabels: {
+            formatter: (value, ctx) => {
+              const sum = ctx.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+              const percentage = ((value / sum) * 100).toFixed(2) + '%';
+              return percentage;
+            },
+            color: '#fff', // Label color
+            font: {
+              weight: 'bold'
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
     });
   });
+
 
   document.addEventListener('DOMContentLoaded', () => {
     // Bar Chart: Average scores by category
