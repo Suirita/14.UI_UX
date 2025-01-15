@@ -24,24 +24,53 @@
           </a>
         </li>
 
-        <li class="nav-item">
-          <a href="../Entretie_inscription/create.php" class="nav-link">
-            <i class="nav-icon fas fa-th"></i>
+        <li class="nav-item has-treeview">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-file"></i>
             <p>
               Entretien d'inscription
+              <i class="right fas fa-angle-left"></i>
             </p>
           </a>
+          <ul class="nav nav-treeview" style="display: none;">
+            <li class="nav-item">
+              <a href="../Entretie_inscription/index.php" class="nav-link">
+                <i class="nav-icon fas fa-table"></i>
+                <p>Index</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../Entretie_inscription/create.php" class="nav-link">
+                <i class="nav-icon far fa-plus-square"></i>
+                <p>Create</p>
+              </a>
+            </li>
+          </ul>
         </li>
 
-        <li class="nav-item">
-          <a href="../branches/index.php" class="nav-link">
+        <li class="nav-item has-treeview">
+          <a href="#" class="nav-link">
             <i class="nav-icon fas fa-th"></i>
             <p>
               Branches
+              <i class="right fas fa-angle-left"></i>
             </p>
           </a>
+          <ul class="nav nav-treeview" style="display: none;">
+            <li class="nav-item">
+              <a href="../branches/index.php" class="nav-link">
+                <i class="nav-icon fas fa-table"></i>
+                <p>Index</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../branches/create.php" class="nav-link">
+                <i class="nav-icon far fa-plus-square"></i>
+                <p>Create</p>
+              </a>
+            </li>
+          </ul>
         </li>
-
       </ul>
     </nav>
     <!-- /.sidebar-menu -->

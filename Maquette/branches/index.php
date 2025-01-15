@@ -21,7 +21,7 @@ include_once '../layouts/head.php';
 
           <!-- Card Header: Displays the section title -->
           <div class="card-header border-transparent">
-            <h3 class="h3">Files</h3>
+            <h3 class="h3">Branches</h3>
           </div>
 
           <!-- Row containing the Add button -->
