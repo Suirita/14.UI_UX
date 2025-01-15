@@ -2,7 +2,7 @@
 left to right direction
 actor "Formateur" as fr
 rectangle System {
-  usecase "Accéder au tableau de bord" as UC1
+  usecase "Voir les analyses" as UC1
 }
 fr -- UC1
 @enduml

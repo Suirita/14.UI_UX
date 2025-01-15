@@ -112,9 +112,21 @@
 
 |||
 
-#### **6.1. Carte d’empathie:**
+#### **6.1. Carte d’empathie de l’étudiant:**
 
-![Carte d’empathie](../assets/img/Carte_empathie.svg)
+![Carte d’empathie de l’étudiant](../assets/img/Carte_empathie_Étudiant.svg)
+
+|||
+
+#### **6.1. Carte d’empathie de formateur:**
+
+![Carte d’empathie de formateur](../assets/img/Carte_empathie_Formateur.svg)
+
+|||
+
+#### **6.1. Card d’empathie de responsable de formation:**
+
+![Carte d’empathie de responsable de formation](../assets/img/Carte_empathie_Responsable_de_formation.svg)
 
 |||
 
