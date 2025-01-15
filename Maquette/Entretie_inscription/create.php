@@ -26,15 +26,18 @@ include_once '../layouts/head.php';
           <div class="card-body">
             <!-- Interview form -->
             <form>
-              <!-- Input field for first name -->
+              <!-- Select2 -->
               <div class="form-group">
-                <label for="FirstName">Nom</label>
-                <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Nom">
-              </div>
-              <!-- Input field for last name -->
-              <div class="form-group">
-                <label for="LastName">Prénom</label>
-                <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Prénom">
+                <label for="minimal-select">Nom de l'inscrit</label>
+                <select id="minimal-select" class="form-control select2" style="width: 100%;">
+                  <option selected="selected" disabled>Nom</option>
+                  <option>Ahmed El Mansouri</option>
+                  <option>Fatima Benali</option>
+                  <option>Mohamed Alaoui</option>
+                  <option>Khadija El Amrani</option>
+                  <option>Youssef Belkacem</option>
+                  <option>Suirita Fahd</option>
+                </select>
               </div>
 
               <!-- Accordion section for different interview categories -->
@@ -184,7 +187,7 @@ include_once '../layouts/head.php';
               <div class="row">
                 <div class="col-12">
                   <a href="../dashboard/dashboard.php" class="btn btn-secondary">Annuler</a>
-                  <a href="./index.php" class="btn btn-md btn-info float-right"></a>
+                  <a href="./index.php" class="btn btn-md btn-info float-right">Valider</a>
                 </div>
               </div>
             </form>
@@ -238,16 +241,23 @@ include_once '../layouts/head.php';
 
   <!-- Script for handling grade box selection -->
   <script>
+    $(document).ready(function() {
+      if ($.fn.select2) {
+        $('.select2').select2();
+      } else {
+        console.error("Select2 library not loaded.");
+      }
+    });
+
     document.addEventListener('DOMContentLoaded', () => {
       const gradeContainers = document.querySelectorAll('.grade-container');
 
       gradeContainers.forEach(container => {
         container.addEventListener('click', (e) => {
           if (e.target.classList.contains('grade-box')) {
-            container.querySelectorAll('.grade-box').forEach(box => {
-              box.classList.remove('selected');
-            });
-            e.target.classList.add('selected');
+            const isSelected = e.target.classList.contains('selected');
+            container.querySelectorAll('.grade-box').forEach(box => box.classList.remove('selected'));
+            if (!isSelected) e.target.classList.add('selected');
           }
         });
       });
