@@ -112,9 +112,9 @@
 
 |||
 
-#### **6.1. Carte d’empathie de l’étudiant:**
+#### **6.1. Carte d’empathie de l’inscrits:**
 
-![Carte d’empathie de l’étudiant](../assets/img/Carte_empathie_Étudiant.svg)
+![Carte d’empathie de l’inscrits](../assets/img/Carte_empathie_Étudiant.svg)
 
 |||
 
